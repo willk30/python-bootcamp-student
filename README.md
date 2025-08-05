@@ -37,6 +37,8 @@ Click the "Open in Colab" badges below to open notebooks directly:
 
 > **Note:** Click any "Open in Colab" badge above to automatically open that notebook in Google Colab - no setup required!
 
+> **⚠️ Important for Option 2:** If you open notebooks separately, the CSV file created at the end of Block 2 will not persist to Block 3 in separate Colab sessions. You'll need to download the CSV file locally at the end of Block 2, then upload it when you open Block 3. For seamless data flow between notebooks, use Option 1 (clone repository) instead.
+
 ### Option 3: Clone Repository in VS Code
 
 **Prerequisites**: Ensure Git is installed on your system:
