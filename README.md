@@ -18,7 +18,7 @@ A comprehensive 5-block intensive session designed to teach Python fundamentals 
    - In Colab, create a new notebook
    - Run this command in a cell:
      ```python
-     !git clone https://github.com/YOUR_USERNAME/python-bootcamp-student.git
+     !git clone https://github.com/willk30/python-bootcamp-student.git
      %cd python-bootcamp-student
      ```
 4. **Open notebooks**: Navigate to the `notebooks/` folder and open any `.ipynb` file
@@ -29,13 +29,13 @@ Click the "Open in Colab" badges below to open notebooks directly:
 
 | Block | Topic | Colab Link |
 |-------|-------|------------|
-| **Block 1** | Programming Mindset & Python Setup | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/python-bootcamp-student/blob/main/notebooks/block1.ipynb) |
-| **Block 2** | Essential Data Wrangling with NumPy & Pandas | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/python-bootcamp-student/blob/main/notebooks/block2.ipynb) |
-| **Block 3** | From Data to Insights: Predictive Modeling | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/python-bootcamp-student/blob/main/notebooks/block3.ipynb) |
-| **Block 4** | From Data to Decisions: Optimization Modeling | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/python-bootcamp-student/blob/main/notebooks/block4.ipynb) |
-| **Block 5** | Essential Tools for Reproducible Research | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/python-bootcamp-student/blob/main/notebooks/block5.ipynb) |
+| **Block 1** | Programming Mindset & Python Setup | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/willk30/python-bootcamp-student/blob/main/notebooks/block1.ipynb) |
+| **Block 2** | Essential Data Wrangling with NumPy & Pandas | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/willk30/python-bootcamp-student/blob/main/notebooks/block2.ipynb) |
+| **Block 3** | From Data to Insights: Predictive Modeling | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/willk30/python-bootcamp-student/blob/main/notebooks/block3.ipynb) |
+| **Block 4** | From Data to Decisions: Optimization Modeling | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/willk30/python-bootcamp-student/blob/main/notebooks/block4.ipynb) |
+| **Block 5** | Essential Tools for Reproducible Research | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/willk30/python-bootcamp-student/blob/main/notebooks/block5.ipynb) |
 
-> **Note:** Replace `YOUR_USERNAME` with the actual GitHub username where this repository is hosted.
+> **Note:** Click any "Open in Colab" badge above to automatically open that notebook in Google Colab - no setup required!
 
 ## 🎯 Goals
 
