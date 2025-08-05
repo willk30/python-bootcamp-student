@@ -1,0 +1,201 @@
+# Python Bootcamp .gitignore
+# This file tells Git which files and folders to ignore
+
+# =====================================================
+# Python
+# =====================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# =====================================================
+# Jupyter Notebook
+# =====================================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# =====================================================
+# Data files (commonly ignored for educational repos)
+# =====================================================
+*.csv
+*.xlsx
+*.xls
+*.json
+*.xml
+*.sqlite
+*.db
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+
+# Data directories
+data/
+datasets/
+raw_data/
+processed_data/
+
+# =====================================================
+# IDEs and Editors
+# =====================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.spyderproject
+.spyproject
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# =====================================================
+# Operating System
+# =====================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# =====================================================
+# Temporary files
+# =====================================================
+*.tmp
+*.temp
+*.log
+*.out
+
+# =====================================================
+# Security and secrets
+# =====================================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# API keys and credentials
+api_keys.txt
+credentials.json
+secrets.json
+config.ini
+
+# =====================================================
+# Output files
+# =====================================================
+# Generated plots and figures
+figures/
+plots/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.pdf
+*.svg
+
+# Allow specific presentation PDFs
+!presentations/*.pdf
+
+# Models and trained weights
+models/
+*.model
+*.h5
+*.pkl
+*.joblib
+
+# =====================================================
+# Documentation builds
+# =====================================================
+docs/_build/
+site/
+
+# =====================================================
+# Package manager files
+# =====================================================
+# npm
+node_modules/
+package-lock.json
+
+# Conda
+.conda/
+
+# =====================================================
+# Jupyter Lab
+# =====================================================
+.jupyter/
+.local/
+
+# =====================================================
+# Other
+# =====================================================
+# Backup files
+*.bak
+*.backup
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+*.7z
