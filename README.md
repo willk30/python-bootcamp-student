@@ -215,7 +215,6 @@ drive.mount('/content/drive')
 Incoming PhD students in:
 - Industrial & Systems Engineering (ISE)
 - Operations Research (OR)  
-- Related quantitative fields
 
 **Experience Level:** All levels welcome - from programming beginners to those seeking Python-specific skills for research
 
@@ -259,6 +258,6 @@ This educational material is provided for academic use. Please cite appropriatel
 
 ---
 
-*This bootcamp provides the computational foundation for success in modern ISE and OR graduate programs, emphasizing practical skills for both coursework and future research endeavors.*
+*This bootcamp provides the computational foundation for success in ISE and OR graduate programs, emphasizing practical skills for both coursework and future research endeavors.*
 
 **Happy coding! 🐍✨**
