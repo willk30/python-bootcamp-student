@@ -1,6 +1,6 @@
 # Python Bootcamp for ISE & OR PhD Students
 
-A comprehensive 5-block intensive session designed to teach Python fundamentals for quantitative research to incoming Industrial & Systems Engineering and Operations Research PhD students.
+A comprehensive 6-block intensive session designed to teach Python fundamentals for quantitative research to incoming Industrial & Systems Engineering and Operations Research PhD students.
 
 **Instructor:** Will Kirschenman (wkkirsch@ncsu.edu)  
 **Date:** August 7, 2025  
@@ -53,6 +53,8 @@ This session achieves two primary objectives:
 - **`block4.ipynb`** - From Data to Decisions: Optimization Modeling
 - **`block5.ipynb`** - Essential Tools for Reproducible Research
 
+*Note: Block 6 is instructor-led demonstration and discussion - no notebook provided*
+
 ### 📑 Presentation Materials (`presentations/`)
 - **`block1.pdf`** - Programming fundamentals presentation
 - **`block5.pdf`** - Git version control presentation
@@ -71,6 +73,7 @@ This session achieves two primary objectives:
 | 1:00 PM - 1:50 PM | **Block 4** | From Data to Decisions: Optimization Modeling |
 | 2:00 PM - 2:50 PM | **Block 5** | Essential Tools for Reproducible Research |
 | 3:00 PM - 3:50 PM | **Block 6** | Advanced Topics & AI for Research Productivity |
+| 3:50 PM - 4:00 PM | **Wrap-up** | Final Wrap-up & Concluding Remarks |
 
 *10-minute breaks between sessions, 70-minute lunch break*
 
@@ -120,6 +123,19 @@ This session achieves two primary objectives:
 - **Git** core concepts: staging, commits, branches
 - **GitHub** for remote repositories and collaboration
 - Best practices for research code management
+
+### Block 6: Advanced Topics & AI for Research Productivity
+**Objective:** Explore advanced computational topics and modern AI tools for accelerating research
+
+**Topics:**
+- **High-Performance Computing Showcase**: Live demonstration of advanced computational techniques used in research
+- **AI-Powered Development Tools**: Interactive demo of modern productivity tools:
+  - IDE-based tools: GitHub Copilot, Cursor
+  - CLI-based tools: Claude Code, Gemini CLI
+- **Research Acceleration**: How AI tools can help with development, debugging, and research tasks
+- **Open Q&A**: Interactive discussion about tools, research methodologies, and the PhD journey
+
+*Note: This block is instructor-led with live demonstrations and open discussion*
 
 ## 🛠️ Setup Instructions
 
