@@ -37,6 +37,28 @@ Click the "Open in Colab" badges below to open notebooks directly:
 
 > **Note:** Click any "Open in Colab" badge above to automatically open that notebook in Google Colab - no setup required!
 
+### Option 3: Clone Repository in VS Code
+
+**Prerequisites**: Ensure Git is installed on your system:
+- **Windows**: Download from [git-scm.com](https://git-scm.com/download/win) or install via `winget install Git.Git`
+- **Mac**: Install via Homebrew `brew install git` or download from [git-scm.com](https://git-scm.com/download/mac)
+- **Linux**: Install via package manager (e.g., `sudo apt install git` on Ubuntu/Debian)
+
+1. **Open VS Code**: Launch [Visual Studio Code](https://code.visualstudio.com/) on your computer
+2. **Open Command Palette**: Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac)
+3. **Clone Repository**:
+   - Type "Git: Clone" and select it
+   - Enter repository URL: `https://github.com/willk30/python-bootcamp-student.git`
+   - Choose a local folder to save the repository
+   - Click "Open" when prompted to open the cloned repository
+4. **Setup Python Environment**:
+   - Install the Python extension if not already installed
+   - Open a terminal in VS Code (`Terminal` → `New Terminal`)
+   - Install dependencies: `pip install -r requirements.txt`
+5. **Open Notebooks**: Navigate to the `notebooks/` folder and open `.ipynb` files directly in VS Code
+
+> **Note:** This option provides a full local development environment with VS Code's powerful editing features and integrated Git tools.
+
 ## 🎯 Goals
 
 This session achieves two primary objectives:
