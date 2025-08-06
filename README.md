@@ -8,24 +8,11 @@ A comprehensive 6-block intensive session designed to teach Python fundamentals 
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/) ← **Recommended: Use Google Colab for all notebooks**
 
-## 🚀 Quick Start with Google Colab
+## 🚀 Quick Start
 
-### Option 1: Clone This Repository in Colab (Recommended)
+### Option 1: Open Individual Notebooks (Recommended)
 
-1. **Open Google Colab**: Go to [colab.research.google.com](https://colab.research.google.com/)
-2. **Sign in** with your NCSU Google account (`unityid@ncsu.edu`)
-3. **Clone this repository**:
-   - In Colab, create a new notebook
-   - Run this command in a cell:
-     ```python
-     !git clone https://github.com/willk30/python-bootcamp-student.git
-     %cd python-bootcamp-student
-     ```
-4. **Open notebooks**: Navigate to the `notebooks/` folder and open any `.ipynb` file
-
-### Option 2: Download Individual Notebooks
-
-Click the "Open in Colab" badges below to open notebooks directly:
+Click the "Open in Colab" badges below to open notebooks directly in Google Colab:
 
 | Block | Topic | Colab Link |
 |-------|-------|------------|
@@ -35,31 +22,23 @@ Click the "Open in Colab" badges below to open notebooks directly:
 | **Block 4** | From Data to Decisions: Optimization Modeling | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/willk30/python-bootcamp-student/blob/main/notebooks/block4.ipynb) |
 | **Block 5** | Essential Tools for Reproducible Research | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/willk30/python-bootcamp-student/blob/main/notebooks/block5.ipynb) |
 
-> **Note:** Click any "Open in Colab" badge above to automatically open that notebook in Google Colab - no setup required!
+> **✅ Recommended Method:** Click any "Open in Colab" badge above to automatically open that notebook in Google Colab - no setup required! Each notebook is self-contained and can be run independently.
 
-> **Note:** Each notebook is self-contained and can be run independently. Block 3 automatically generates the required dataset, so no file transfers between sessions are needed.
+### Option 2: Local Development with VS Code
 
-### Option 3: Clone Repository in VS Code
+For those preferring a local development environment:
 
-**Prerequisites**: Ensure Git is installed on your system:
-- **Windows**: Download from [git-scm.com](https://git-scm.com/download/win) or install via `winget install Git.Git`
-- **Mac**: Install via Homebrew `brew install git` or download from [git-scm.com](https://git-scm.com/download/mac)
-- **Linux**: Install via package manager (e.g., `sudo apt install git` on Ubuntu/Debian)
+**Prerequisites**: 
+- [Visual Studio Code](https://code.visualstudio.com/) 
+- Git ([Windows](https://git-scm.com/download/win) | [Mac](https://git-scm.com/download/mac) | Linux: `sudo apt install git`)
+- Python 3.9+ from [python.org](https://www.python.org/downloads/)
 
-1. **Open VS Code**: Launch [Visual Studio Code](https://code.visualstudio.com/) on your computer
-2. **Open Command Palette**: Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac)
-3. **Clone Repository**:
-   - Type "Git: Clone" and select it
-   - Enter repository URL: `https://github.com/willk30/python-bootcamp-student.git`
-   - Choose a local folder to save the repository
-   - Click "Open" when prompted to open the cloned repository
-4. **Setup Python Environment**:
-   - Install the Python extension if not already installed
-   - Open a terminal in VS Code (`Terminal` → `New Terminal`)
-   - Install dependencies: `pip install -r requirements.txt`
-5. **Open Notebooks**: Navigate to the `notebooks/` folder and open `.ipynb` files directly in VS Code
-
-> **Note:** This option provides a full local development environment with VS Code's powerful editing features and integrated Git tools.
+**Setup Steps**:
+1. Clone repository: `git clone https://github.com/willk30/python-bootcamp-student.git`
+2. Open folder in VS Code
+3. Install Python extension
+4. Install dependencies: `pip install -r requirements.txt`
+5. Open `.ipynb` files in the `notebooks/` folder
 
 ## 🎯 Goals
 
@@ -161,39 +140,6 @@ This session achieves two primary objectives:
 
 *Note: This block is instructor-led with live demonstrations and open discussion*
 
-## 🛠️ Setup Instructions
-
-### Google Colab (Recommended - No Installation Needed!)
-
-1. **Requirements**: 
-   - Laptop with internet connection
-   - Google account (preferably NCSU: `unityid@ncsu.edu`)
-
-2. **Getting Started**:
-   - Go to [colab.research.google.com](https://colab.research.google.com/)
-   - Clone this repository or open notebooks directly
-   - Most packages are pre-installed in Colab!
-
-3. **If you encounter missing packages**:
-   ```python
-   !pip install package_name
-   ```
-
-### Local Development (Optional)
-
-If you prefer local development:
-
-1. **Python**: Version 3.9+ from [python.org](https://www.python.org/downloads/)
-2. **Install dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. **Jupyter**: 
-   ```bash
-   pip install jupyter
-   jupyter notebook
-   ```
-4. **Code Editor**: [Visual Studio Code](https://code.visualstudio.com/) with Python extension
 
 ## 🔧 Key Python Libraries Covered
 
@@ -215,11 +161,7 @@ If you prefer local development:
 ```
 
 **Problem**: Files not persisting between sessions
-```python
-# Solution: Save important files to Google Drive
-from google.colab import drive
-drive.mount('/content/drive')
-```
+- **Solution**: Not needed! Each notebook is self-contained and generates its own data
 
 **Problem**: Runtime disconnected
 - **Solution**: Runtime menu → Reconnect, then re-run cells
