@@ -6,8 +6,6 @@ A comprehensive 6-block intensive session designed to teach Python fundamentals 
 **Date:** August 7, 2025  
 **Institution:** North Carolina State University
 
-**Time Now:** 2:44 PM
-
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/) ← **Recommended: Use Google Colab for all notebooks**
 
 ## 🚀 Quick Start
